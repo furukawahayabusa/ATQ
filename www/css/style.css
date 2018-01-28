@@ -1,0 +1,134 @@
+/**************************
+*    クイズエリア         *
+**************************/
+#head {
+  width: 100%; 
+  height: 130px;     
+  background-color: #FFCC66;
+  color: #660000;
+}
+
+#question {
+  width: 100%; 
+  height: 20%;     
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing : 1px;
+  padding: 3px;
+}
+
+#answer_options {
+  width: 100%
+  height: auto;
+  font-size: 10px;
+  text-align: center;
+  background-color: #660000;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+#carousel {
+  width: 100%; 
+  height: 250px;
+  background-color: #660000;
+}
+
+ons-carousel-item {
+  display: table;
+  text-align: left;
+}
+
+.item-label {
+  display: table-cell;
+  display: block;
+  vertical-align:middle;
+  line-height: 1;
+  font-size: 17px;
+  width: 100%; 
+  height: 250px;
+  color: #FFFFFF; 
+  background-color: #660000;
+  letter-spacing : 1px;
+  padding-left: 3px;
+
+}
+
+.cover-label {
+  text-align: center;
+  width: 100%;
+  bottom: 8px;
+  color: white;
+  font-size: 10px;
+}
+#q1 {
+  height: 10%; 
+   text-align: center;
+   font-size: 12px;
+  color: #660000;
+}
+
+#a1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.choices .choice{
+    width 100%;
+    padding:  10px;
+}
+#foot {
+  width: 100%; 
+  height: 20px;     
+}
+#ans_button_area {
+  width: 160px; 
+  height: 20px;     
+
+}
+.biko
+{
+   font-size: 12px;
+    text-align: center;
+  font-weight: bold;
+}
+#ans_quiz_button {
+  margin-top: 10px;
+}
+
+.title
+{
+   font-size: 40px;
+   font-family: 'arial black';
+   font-weight: bold;
+}
+#At
+{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom:  0px;
+    padding-bottom: 0px;
+}
+#Tr
+{
+    text-align: right;
+    padding-right: 20px;
+    margin-top:  0px;
+    margin-bottom:  0px;
+}
+#Qu
+{
+    text-align: center;
+    margin-top:  0px;
+    margin-bottom:  0px;
+}
+.res
+{
+    color: red;
+    font-weight: bold;
+}
+#answer_result {
+    letter-spacing : 1px;
+    padding-left: 3px;
+    
+}

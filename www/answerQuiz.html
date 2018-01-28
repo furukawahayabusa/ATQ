@@ -1,0 +1,73 @@
+<ons-page id="answer_page">
+    <div>
+        <div id="head" class="B1">
+            <h3 id="q1">問題</h3>            
+            <p id="question"></p>
+            <br />
+            <p class="biko">
+                1〜４の中から選択
+            </p>
+        </div>
+        
+        <div class="choices" id="c_btn">
+            <ons-row>
+    			<ons-col width="25%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta" onclick="setCur(1)">1</button>
+					</div>				
+				</ons-col>
+				<ons-col width="25%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta" onclick="setCur(2)">2</button>
+					</div>
+				</ons-col>
+				<ons-col width="25%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta" onclick="setCur(3)">3</button>
+					</div>
+				</ons-col>
+				<ons-col width="25%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta" onclick="setCur(4)">4</button>
+					</div>
+				</ons-col>
+			</ons-row>
+		</div>
+
+        <div id="answer_options" class="B2">
+            <p id="a1">選択肢</p>
+            <ons-carousel id="carousel" var="cur" swipeable overscrollable auto-scroll>
+                <ons-carousel-item >
+                    <!-- div class="item-label" id="c1" >GRAY</div-->
+                    <h4><p class="item-label"  id="c0"></p></h4>
+                </ons-carousel-item>
+                <ons-carousel-item >
+                    <!-- div class="item-label" id="c2" >BLUE</div-->
+                    <h4><p class="item-label"  id="c1"></p></h4>
+                </ons-carousel-item>
+                <ons-carousel-item >
+                    <!-- div class="item-label" id="c3" >DARK</div-->
+                    <h4><p class="item-label"  id="c2"></p></h4>
+                </ons-carousel-item>
+                <ons-carousel-item >
+                    <!-- div class="item-label" id="c4"  >ORANGE</div-->
+                    <h4><p class="item-label"  id="c3"></p></h4>
+                </ons-carousel-item>
+                <!--ons-carousel-cover>
+                    <div class="cover-label">左右に移動させて正解を選択してください</div>
+                </ons-carousel-cover-->
+            </ons-carousel>
+        </div>
+
+        <div id="answer_result">
+        </div>
+
+
+
+        <div id="foot" class="B3"  align="center">
+            <span id="ans_button_area"></span>
+        </div>
+
+    </div>
+
+</ons-page>
